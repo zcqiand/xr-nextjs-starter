@@ -1,4 +1,4 @@
-# 规则
+# 通用规则
 
 ## 角色定义
 
@@ -46,26 +46,14 @@ flowchart LR
 - 状态管理：Zustand
 - 数据库：Supabase
 - 身份验证：Better Auth
-- 付款方式：Polar.sh
 - 人工智能：OpenAI SDK
 - 存储：Cloudflare R2
 - 日志：Pino
 - 分析：PostHog
-- 测试：Vitest + React Testing Library
+- 端到端 (E2E) 测试：Playwright
+- 单元测试：Jest
+- 文档生成：Storybook
 - 部署：Vercel
-- 其他库
-  - 校验：Zod
-  - 表单库：react hook form
-  - 日期库：Day.js
-- 工具
-  - Mock 工具：MSW
-  - e2e 测试：Playwright
-  - 文档生成：Storybook
-  - Linter：ESLint
-  - 代码格式化：Prettier
-  - 运行环境：Node.js 最新 LTS 版本
-  - 包管理：npm
-  - 版本管理：Git
 
 ## 安全
 
