@@ -118,7 +118,7 @@ src/
 
 #### 状态管理设计
 
-- 使用 Zustand 进行状态管理，组件通过 Store 访问数据
+- 使用 zustand 进行状态管理，组件通过 Store 访问数据
   - 采用单 Store 多 Slice 模式
   - 按 Slice 管理状态，提高复用性
 - Hook 函数实现为自定义 Hook

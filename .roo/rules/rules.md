@@ -43,15 +43,14 @@ flowchart LR
 - 语言：TypeScript
 - 框架：Next.js（App Router）
 - UI 框架：shadcn/ui（Tailwind CSS）
-- 状态管理：Zustand
-- 数据库：Supabase
+- 状态管理：zustand
+- 数据库：supabase
 - 身份验证：Better Auth
 - 人工智能：OpenAI SDK
 - 存储：Cloudflare R2
 - 日志：Pino
-- 分析：PostHog
-- 端到端 (E2E) 测试：Playwright
 - 单元测试：Jest
+- 端到端 (E2E) 测试：Playwright
 - 文档生成：Storybook
 - 部署：Vercel
 
